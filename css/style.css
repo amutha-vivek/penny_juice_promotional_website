@@ -1,0 +1,323 @@
+* {
+    margin:0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* body */
+body{
+    background-color:rgba(249, 234, 234,0.3);
+    /* background-color: #dadfe0;
+     */
+}
+/* header */
+header{
+    margin:3% 8%;
+}
+/* title heading */
+.title-box{
+    margin:3 8% 3 8%;
+    transform:rotate(-25deg);
+    display: inline-block;
+    vertical-align: middle;
+}
+.title{
+    color:palevioletred;
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+    line-height: 1.25;
+    display: inline-block;
+}
+.second_title_space{
+    font-size: 74px;
+    padding-left:25px;
+    display: inline-block;
+}
+/* navbar. */
+.nav-bar,.nav-list,.nav-list-items{
+   display:inline-block;
+   vertical-align: middle;
+ 
+}
+.nav-bar{
+    width:calc(100% - 178px);
+    text-align: right;
+}
+
+/* anchor tag */
+.nav-bar a{
+    color:palevioletred;
+    margin-left: 20px; 
+    padding:2px 10px;
+    font-size: 20px; 
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.nav-bar a:hover{
+    color: white;
+    background-color: rgb(218, 127, 157);
+    border-bottom:3px solid navy;
+    border-radius: 3px;
+}
+.nav-bar .active{
+    color:#F1585A;
+    border-bottom:2px solid red;
+}
+
+/* section home */ 
+.home-content-section,.about-content-section{
+    margin:4% 10% 4% ;
+    text-align:center;
+}
+.home-content-title,.nutrition-head{
+    font-size: 55px;
+    text-align: center;
+    margin: 35px;
+    color: #ad5485;
+    /* color:rgb(133, 70, 91); */
+    font-family: 'Playfair Display', serif;
+}
+.home-content-paragraph{
+    font-size: 25px;
+    text-align: justify;
+    width:75%;
+    margin:auto;
+    color:#8f1f64;
+    font-family: 'Itim', cursive;
+    line-height: 1.75;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width:10px;
+    width: 5%;
+    color:#F1585A;
+    margin:auto;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+/* button */
+.btn {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #AD5485;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color:transparent;
+    margin-top:5%;
+ 
+  }
+  
+  .btn:hover {
+    background: #8d485f;
+    text-decoration: none;
+  }
+  .about-content-title{
+    font-size: 55px;
+    text-align: left;
+    margin:0;
+    margin-left:130px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+  }
+  .about-content-paragraph{
+    font-size: 25px;
+    text-align: justify;
+    margin:0;
+    color:#8f1f64;
+    margin-left:130px;
+    font-family: 'Itim', cursive;
+    line-height: 1.75;
+
+  }
+  .about-content-section{
+    width:80%;
+    margin:auto;
+  }
+ 
+  .img1{
+      width:40%;
+      float:right;
+      padding-left:100px;
+  }
+  .testimonials-section,.testimonials,.testimonials-para,.testimonials-div{
+      font-size:22px;
+      color:black;
+      margin:auto;
+      vertical-align: top;
+      
+  }
+  .testimonials-div{
+      margin: auto;
+      
+  }
+.testimonials-section{
+    width:80%;
+    margin: auto;
+    margin-top:200px;
+    
+
+  }
+  .testimonials-para1{
+      margin-left:137px;
+  }
+
+  .testimonials-para{
+    display:inline-block;
+    width:25%;
+    margin-right:40px;
+    text-align: justify;
+    color:#8f1f64;
+    font-family: 'Itim', cursive;
+    
+     
+  }
+  .testimonials-section div{
+      display: inline-block;
+  }
+  .testimonials-section p{
+    display: inline-block;
+}
+.testimonials-head{
+    font-size: 35px;
+    text-align: center;
+    margin:0;
+    margin-left:130px;
+    margin-bottom: 70px;
+    font-family: 'Playfair Display', serif;
+    color:#F1585A;
+    line-height: 1.75;
+}
+.img2{
+    width:45%;
+    float:left;
+    padding-right:100px;
+}
+.img3{
+    width:50%;
+    float:right;
+    padding-left:55px;
+}
+.nutrition-content-rightparagraph{
+    font-size: 25px;
+    text-align: justify;
+    color:#8f1f64;
+    margin-right:180px;
+    margin-top:100px;
+    font-family: 'Itim', cursive;
+    line-height: 1.75;
+
+  }
+  .nutrition-content-leftparagraph{
+    font-size: 25px;
+    width:45%;
+    text-align: justify;
+    margin:0;
+    color:#8f1f64;
+    margin-left:137px;
+    margin-top:180px;
+    font-family: 'Itim', cursive;
+    line-height: 1.75;
+
+  }
+  .nutrition-content-section{
+      width:80%;
+      margin: auto;
+  }
+  .nutrition-head{
+      margin-bottom:120px;
+  }
+  .our_juices_section{
+    width:90%;
+    margin: auto;
+}
+
+.juice_img{
+  display:inline-block;
+  width:25%;
+  margin-right:40px;
+  text-align: justify;
+  color:#8f1f64;
+  font-family: 'Itim', cursive;
+  vertical-align: middle;
+  
+   
+}
+.juice_img1{
+    margin-left:137px;
+    
+}
+/* .juice_img3{
+    height:400px; 
+    width:450px; 
+    margin-right: 0;
+} */
+
+.our_juice_section div{
+    display: inline-block;
+}
+.our_juice_section img{
+  display: inline-block;
+}
+.testimonials-para3{
+   width:calc(100% -500px);
+   text-align: right;
+}
+.testimonials1{
+    display: inline-block;
+}
+.IMG2{
+    height:400px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+
+.nutrition-content2{
+    margin-bottom:100px;
+
+}
+.nutrition-content-rightparagraph1{
+    padding-top:50px;
+
+}
+.footer-div{
+    text-align: center;
+    background-color: tomato;
+   
+    
+}
+.footer-img1{
+   
+    width:30px;
+    height:30px;
+    padding:20px 5px;
+
+}
+.footer-img{
+    border-radius: 20%;
+
+
+}
+
+
+.footer-img1:hover{
+    width:35px;
+    height:35px;
+    
+}
+.btn-a{
+    text-decoration: none;
+    color: white;
+}
+.btn-a:hover{
+    font-size: 25px;
+
+}

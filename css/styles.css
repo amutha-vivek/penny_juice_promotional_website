@@ -1,0 +1,20 @@
+*{
+    margin:0;
+}
+.left-bar,.left-head,.right-bar,.right-head{
+    display: inline-block;
+}
+.left-bar{
+    background-color: blue;
+    width: 40%;
+    margin: 0%;
+}
+.right-bar{
+    background-color: rgb(255, 0, 119);
+    /* width: 40%; */
+    width:calc(100% - 780px);
+     text-align:center;margin: 0%;
+}
+.right-head{
+    text-align: left;
+}
